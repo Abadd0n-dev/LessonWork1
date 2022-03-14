@@ -10,6 +10,9 @@ namespace Lesson_1
     {
         static void Main(string[] args)
         {
+            Console.Write("What's your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}, today [{DateTime.Now}]");
         }
     }
 }
